@@ -1,0 +1,66 @@
+
+
+
+
+
+
+*{
+    padding: 0;
+  
+
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+  
+    background-color: rgb(226, 239, 248);
+    display: flex;
+    justify-content: center;
+}
+.nav_sec_logo {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.toggle-btn {
+    width: 30px;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.432);
+    border-radius: 20px;
+    border-style: none;
+}
+.toggle-btn:hover {
+    background-color: rgba(128, 128, 128, 0.555);
+    transition-duration: 0.5s;
+    transform: rotate(90deg);
+}
+.links {
+    width: 400px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.social-icons {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show_links {
+    height: 10rem;
+}

@@ -1,0 +1,9 @@
+.links {
+    display: none;
+  }
+  
+  @media (max-width: 500px) {
+    .links.show_links {
+      display: block;
+    }
+  }

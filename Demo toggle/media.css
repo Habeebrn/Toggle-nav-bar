@@ -1,0 +1,38 @@
+
+/* @media screen and (max-width: 500px) {
+    .links.show_links {
+        display: block;
+      }
+   
+    /* work on inside 800px (eg : 799) */
+
+    /* .toggle-btn {
+
+        
+
+    }
+
+    .links {
+        display: none !important;
+
+    }
+
+} */
+
+@media screen and (min-width: 500px) {
+
+        /* work on outside 500px (eg : 499) */
+
+    .links {
+        display: none;
+    }
+    .toggle-btn {
+        display: none;
+    }
+
+
+
+
+
+
+}
